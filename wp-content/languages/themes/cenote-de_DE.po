@@ -1,0 +1,1603 @@
+# Translation of Themes - Cenote in German
+# This file is distributed under the same license as the Themes - Cenote package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-01 10:17:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: de\n"
+"Project-Id-Version: Themes - Cenote\n"
+
+#. Description of the plugin/theme
+msgid "Cenote is beautifully designed clean WordPress blog theme. Easy to setup and has a nice set of features that make your site stand out. It is suitable for personal, fashion, food, travel, business, professional, niche and any kind of blogging sites. Comes with various demos for various purposes, which you can easily import with the help of ThemeGrill Demo Importer plugin."
+msgstr "Cenote ist ein wunderschön gestaltetes und aufgeräumtes WordPress-Blog-Theme. Es ist leicht einzurichten und bietet eine Menge Funktionen, die deine Website besonders machen. Es eignet sich für persönliche Websites, Mode, Ernährung, Reisen, Unternehmen, Beruf, Nische und jede Art von Blog. Es bringt verschiedene Demos für verschiedene Zwecke mit, die du mithilfe des ThemeGrill-Demo-Importer-Plugins einfach importieren kannst."
+
+#: inc/customizer/options/options-archive.php:52
+#: inc/customizer/options/options-single.php:41
+msgid "Makes the first letter of the content bigger"
+msgstr "Der erste Buchstabe des Inhalts wird größer dargestellt"
+
+#: inc/customizer/options/options-header.php:33
+msgid "Contact Info"
+msgstr "Kontaktinfo"
+
+#: inc/customizer/options/options-header.php:50
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+#: inc/customizer/options/options-header.php:75
+msgid "Email Address"
+msgstr "E-Mail-Adresse"
+
+#: 404.php:18
+msgid "Sorry, but nothing exists here."
+msgstr "Entschuldigung, hier gibt es nichts."
+
+#: 404.php:22
+msgid "Try searching or "
+msgstr "Probiere die Suche oder "
+
+#: 404.php:22
+msgid "Go back to Home"
+msgstr "Zurück zur Homepage"
+
+#. translators: 1: title.
+#: comments.php:35
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Ein Gedanke zu „%1$s“"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s Gedanke zu „%2$s“"
+msgstr[1] "%1$s Gedanken zu „%2$s“"
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: functions.php:54
+msgid "Primary"
+msgstr "Primär"
+
+#: functions.php:55
+msgid "Header Top"
+msgstr "Header oben"
+
+#: functions.php:132
+msgid "Sidebar"
+msgstr "Seitenleiste"
+
+#: functions.php:134
+msgid "Add widgets here."
+msgstr "Widgets hier hinzufügen."
+
+#: functions.php:142
+msgid "Footer 1"
+msgstr "Footer 1"
+
+#: functions.php:144
+msgid "Add widgets here to show on footer 1."
+msgstr "Widgets hier hinzufügen zur Anzeige im Footer 1"
+
+#: functions.php:152
+msgid "Footer 2"
+msgstr "Footer 2"
+
+#: functions.php:154
+msgid "Add widgets here to show on footer 2."
+msgstr "Widgets hier hinzufügen zur Anzeige im Footer 2"
+
+#: functions.php:162
+msgid "Footer 3"
+msgstr "Footer 3"
+
+#: functions.php:164
+msgid "Add widgets here to show on footer 3."
+msgstr "Widgets hier hinzufügen zur Anzeige im Footer 3"
+
+#: functions.php:172
+msgid "Footer 4"
+msgstr "Footer 4"
+
+#: functions.php:174
+msgid "Add widgets here to show on footer 4."
+msgstr "Widgets hier hinzufügen zur Anzeige im Footer 4"
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "Springe zum Inhalt"
+
+#: inc/compatibility/class-breadcrumb-trail.php:264
+msgid "Browse:"
+msgstr "Durchstöbern:"
+
+#: inc/compatibility/class-breadcrumb-trail.php:265
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr "Brotkrumen"
+
+#: inc/compatibility/class-breadcrumb-trail.php:266
+msgid "Home"
+msgstr "Startseite"
+
+#: inc/compatibility/class-breadcrumb-trail.php:267
+msgid "404 Not Found"
+msgstr "404 Nicht gefunden"
+
+#: inc/compatibility/class-breadcrumb-trail.php:268
+msgid "Archives"
+msgstr "Archive"
+
+#. Translators: %s is the search query.
+#: inc/compatibility/class-breadcrumb-trail.php:270
+msgid "Search results for: %s"
+msgstr "Suchergebnisse für: %s"
+
+#. Translators: %s is the page number.
+#: inc/compatibility/class-breadcrumb-trail.php:272
+msgid "Page %s"
+msgstr "Seite %s"
+
+#. Translators: %s is the page number.
+#: inc/compatibility/class-breadcrumb-trail.php:274
+msgid "Comment Page %s"
+msgstr "Kommentare-Seite %s"
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: inc/compatibility/class-breadcrumb-trail.php:276
+msgid "Minute %s"
+msgstr "Minute %s"
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: inc/compatibility/class-breadcrumb-trail.php:278
+msgid "Week %s"
+msgstr "Woche %s"
+
+#: inc/compatibility/class-breadcrumb-trail.php:721
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr "G:i"
+
+#: inc/compatibility/class-breadcrumb-trail.php:739
+msgctxt "minute archives time format"
+msgid "i"
+msgstr "i"
+
+#: inc/compatibility/class-breadcrumb-trail.php:757
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr "G"
+
+#: inc/compatibility/class-breadcrumb-trail.php:774
+#: inc/compatibility/class-breadcrumb-trail.php:803
+#: inc/compatibility/class-breadcrumb-trail.php:842
+#: inc/compatibility/class-breadcrumb-trail.php:869
+#: inc/compatibility/class-breadcrumb-trail.php:1212
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/compatibility/class-breadcrumb-trail.php:775
+#: inc/compatibility/class-breadcrumb-trail.php:843
+#: inc/compatibility/class-breadcrumb-trail.php:1214
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr "F"
+
+#: inc/compatibility/class-breadcrumb-trail.php:776
+#: inc/compatibility/class-breadcrumb-trail.php:1216
+msgctxt "daily archives date format"
+msgid "j"
+msgstr "j"
+
+#: inc/compatibility/class-breadcrumb-trail.php:804
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr "M"
+
+#: inc/customizer/kirki-customizer.php:32
+msgid "Theme Options"
+msgstr "Theme-Optionen"
+
+#: inc/customizer/kirki-customizer.php:39
+msgid "Social"
+msgstr "Social"
+
+#: inc/customizer/kirki-customizer.php:48
+msgid "Top Header Bar"
+msgstr "Leiste über Header"
+
+#: inc/customizer/kirki-customizer.php:57
+msgid "Header"
+msgstr "Header"
+
+#: inc/customizer/kirki-customizer.php:66
+#: inc/kirki/controls/php/class-kirki-control-typography.php:217
+msgid "Color"
+msgstr "Farbe"
+
+#: inc/customizer/kirki-customizer.php:84
+msgid "Breadcrumbs"
+msgstr "Brotkrumen"
+
+#: inc/customizer/kirki-customizer.php:93
+msgid "Layout"
+msgstr "Layout"
+
+#: inc/customizer/kirki-customizer.php:102
+msgid "Typography"
+msgstr "Typografie"
+
+#: inc/customizer/kirki-customizer.php:111
+msgid "Archive/Blog"
+msgstr "Archiv/Blog"
+
+#: inc/customizer/kirki-customizer.php:120
+#: template-parts/pagination/pagination.php:27
+msgid "Page"
+msgstr "Seite"
+
+#: inc/customizer/kirki-customizer.php:129
+msgid "Single Post"
+msgstr "Einzelner Beitrag"
+
+#: inc/customizer/kirki-customizer.php:147
+#: inc/customizer/options/options-archive.php:79
+#: inc/customizer/options/options-page.php:26
+#: inc/customizer/options/options-single.php:30
+msgid "Footer"
+msgstr "Fußzeile"
+
+#: inc/customizer/options/options-archive.php:13
+msgid "Archive/Blog Style"
+msgstr "Archiv/Blog-Stil"
+
+#: inc/customizer/options/options-archive.php:29
+msgid "Post Column"
+msgstr "Beitrags-Spalte"
+
+#: inc/customizer/options/options-archive.php:33
+msgid "2"
+msgstr "2"
+
+#: inc/customizer/options/options-archive.php:34
+msgid "3"
+msgstr "3"
+
+#: inc/customizer/options/options-archive.php:51
+#: inc/customizer/options/options-single.php:40
+msgid "Enable Drop Cap"
+msgstr "Initiale aktivieren"
+
+#: inc/customizer/options/options-archive.php:64
+msgid "Post Content Order"
+msgstr "Beitrags-Inhalt-Reihenfolge"
+
+#: inc/customizer/options/options-archive.php:65
+#: inc/customizer/options/options-header.php:25
+#: inc/customizer/options/options-page.php:14
+#: inc/customizer/options/options-single.php:14
+#: inc/customizer/options/options-social.php:12
+msgid "Drag & Drop items to re-arrange the order"
+msgstr "Anordnung der Elemente per Drag-and-drop ändern"
+
+#: inc/customizer/options/options-archive.php:75
+#: inc/customizer/options/options-page.php:24
+#: inc/customizer/options/options-single.php:25
+msgid "Thumbnail"
+msgstr "Vorschaubild"
+
+#: inc/customizer/options/options-archive.php:76
+#: inc/customizer/options/options-single.php:28
+msgid "Meta Tags"
+msgstr "Meta-Schlagwörter"
+
+#: inc/customizer/options/options-archive.php:77
+#: inc/customizer/options/options-header-media.php:39
+#: inc/customizer/options/options-page.php:23
+#: inc/customizer/options/options-single.php:27
+msgid "Title"
+msgstr "Titel"
+
+#: inc/customizer/options/options-archive.php:78
+#: inc/customizer/options/options-page.php:25
+#: inc/customizer/options/options-single.php:29
+msgid "Content"
+msgstr "Content"
+
+#: inc/customizer/options/options-breadcrumb.php:13
+msgid "Enable Breadcrumbs"
+msgstr "Brotkrumen aktivieren"
+
+#: inc/customizer/options/options-color.php:13
+msgid "Primary Color"
+msgstr "Primärfarbe"
+
+#: inc/customizer/options/options-footer.php:13
+msgid "Footer Style"
+msgstr "Footer-Stil"
+
+#: inc/customizer/options/options-footer.php:28
+msgid "Enable Back To Top"
+msgstr "Zurück-nach-oben aktivieren"
+
+#: inc/customizer/options/options-header-media.php:13
+msgid "Enable media info box"
+msgstr "Medien-Infobox aktivieren"
+
+#: inc/customizer/options/options-header-media.php:24
+msgid "Header Media Layout"
+msgstr "Header-Medien-Layout"
+
+#: inc/customizer/options/options-header-media.php:64
+msgid "Text"
+msgstr "Text"
+
+#: inc/customizer/options/options-header-media.php:89
+msgid "Button Text"
+msgstr "Button-Text"
+
+#: inc/customizer/options/options-header-media.php:114
+msgid "Button URL"
+msgstr "Button-URL"
+
+#: inc/customizer/options/options-header.php:13
+msgid "Enable Header Top Bar"
+msgstr "Leiste über Header aktivieren"
+
+#: inc/customizer/options/options-header.php:24
+msgid "Header Top Item Order"
+msgstr "Reihenfolge Elemente über Header"
+
+#: inc/customizer/options/options-header.php:32
+msgid "Menu"
+msgstr "Menü"
+
+#: inc/customizer/options/options-header.php:100
+msgid "Enable Sticky Header"
+msgstr "Oben gehaltenen Header aktivieren"
+
+#: inc/customizer/options/options-header.php:111
+msgid "Header Layout"
+msgstr "Header Layout"
+
+#: inc/customizer/options/options-header.php:127
+msgid "Enable Search Icon"
+msgstr "Such-Icon aktivieren"
+
+#: inc/customizer/options/options-layout.php:13
+msgid "Site Layout"
+msgstr "Website-Layout"
+
+#: inc/customizer/options/options-layout.php:28
+msgid "Archive/Blog Layout"
+msgstr "Archiv/Blog-Layout"
+
+#: inc/customizer/options/options-layout.php:45
+msgid "Single Post Layout"
+msgstr "Einzelbeitrag-Layout"
+
+#: inc/customizer/options/options-layout.php:62
+msgid "Page Layout"
+msgstr "Seitenlayout"
+
+#: inc/customizer/options/options-page.php:13
+msgid "Page Content Order"
+msgstr "Seiteninhalt-Reihenfolge"
+
+#: inc/customizer/options/options-single.php:13
+msgid "Single Post Content Order"
+msgstr "Einzelbeitrag-Inhalt-Reihenfolge"
+
+#: inc/customizer/options/options-post-ribbon.php:28
+#: inc/customizer/options/options-post-ribbon.php:53
+#: inc/customizer/options/options-post-slider.php:52
+#: inc/customizer/options/options-single.php:26
+msgid "Categories"
+msgstr "Kategorien"
+
+#: inc/customizer/options/options-single.php:52
+msgid "Enable Author Box"
+msgstr "Autorbox aktivieren"
+
+#: inc/customizer/options/options-single.php:63
+msgid "Enable Related Posts"
+msgstr "Verwandte Beiträge aktivieren"
+
+#: inc/customizer/options/options-social.php:11
+msgid "Add Social Profile"
+msgstr "Soziale Profile hinzufügen"
+
+#: inc/customizer/options/options-social.php:17
+msgid "Social Profile"
+msgstr "Soziale Profile"
+
+#: inc/customizer/options/options-social.php:32
+msgid "Social Icon"
+msgstr "Soziales Icon"
+
+#: inc/customizer/options/options-social.php:36
+msgid "Behance"
+msgstr "Behance"
+
+#: inc/customizer/options/options-social.php:37
+msgid "Blogger"
+msgstr "Blogger"
+
+#: inc/customizer/options/options-social.php:38
+msgid "CodePen"
+msgstr "CodePen"
+
+#: inc/customizer/options/options-social.php:39
+msgid "Delicious"
+msgstr "Delicious"
+
+#: inc/customizer/options/options-social.php:40
+msgid "DeviantArt"
+msgstr "DeviantArt"
+
+#: inc/customizer/options/options-social.php:41
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: inc/customizer/options/options-social.php:42
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer/options/options-social.php:43
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: inc/customizer/options/options-social.php:44
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/customizer/options/options-social.php:45
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/customizer/options/options-social.php:46
+msgid "Medium"
+msgstr "Mittel"
+
+#: inc/customizer/options/options-social.php:47
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/customizer/options/options-social.php:48
+msgid "Quora"
+msgstr "Quora"
+
+#: inc/customizer/options/options-social.php:49
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: inc/customizer/options/options-social.php:50
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer/options/options-social.php:51
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: inc/customizer/options/options-social.php:52
+msgid "Yelp"
+msgstr "Yelp"
+
+#: inc/customizer/options/options-social.php:53
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/customizer/options/options-social.php:58
+msgid "Social Link URL"
+msgstr "Sozialer-Link-URL"
+
+#: inc/customizer/options/options-typography.php:13
+msgid "Body"
+msgstr "Body"
+
+#: inc/customizer/options/options-typography.php:44
+msgid "Heading"
+msgstr "Überschrift"
+
+#. #-#-#-#-#  cenote.pot (Cenote 1.2.3)  #-#-#-#-#
+#. Theme Name of the plugin/theme
+#: inc/demo-config.php:25
+msgid "Cenote"
+msgstr "Cenote"
+
+#: inc/demo-config.php:29
+msgid "Cenote Fashion"
+msgstr "Cenote Fashion"
+
+#: inc/meta-boxes.php:12
+msgid "Choose Layout"
+msgstr "Layout wählen"
+
+#: inc/meta-boxes.php:34
+msgid "Full Width"
+msgstr "Volle Breite"
+
+#: inc/meta-boxes.php:35
+msgid "Left Sidebar"
+msgstr "Seitenleiste links"
+
+#: inc/meta-boxes.php:36
+msgid "Right Sidebar"
+msgstr "Seitenleiste rechts"
+
+#: inc/kirki/controls/php/class-kirki-control-base.php:114
+#: inc/kirki/controls/php/class-kirki-control-image.php:51
+#: inc/kirki/field/class-kirki-field-image.php:43 inc/meta-boxes.php:37
+msgid "Default"
+msgstr "Standard"
+
+#: inc/template-functions.php:91
+msgid "Back To Top"
+msgstr "Zurück nach oben"
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:64
+msgid "Category: %1$s"
+msgstr "Kategorie: %1$s"
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:70
+msgid "Tagged: %1$s"
+msgstr "Verschlagwortet: %1$s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:80
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Schreib einen Kommentar<span class=\"screen-reader-text\"> zu %s</span>"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:97 template-parts/content-page.php:47
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "<span class=\"screen-reader-text\">%s</span> bearbeiten"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:328
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:48
+msgid "Install Required Plugins"
+msgstr "Erforderliche Plugins installieren"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:329
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:49
+msgid "Install Plugins"
+msgstr "Plugins installieren"
+
+#. translators: %s: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:331
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:51
+msgid "Installing Plugin: %s"
+msgstr "Installiere Plugin: %s"
+
+#. translators: %s: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:333
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:53
+msgid "Updating Plugin: %s"
+msgstr "Aktualisiere Plugin: %s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:334
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:54
+msgid "Something went wrong with the plugin API."
+msgstr "Mit der Plugin-API ist etwas schiefgegangen."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:371
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:91
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Plugin installieren beginnen"
+msgstr[1] "Plugins installieren beginnen"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:376
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:96
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Plugin aktualisieren beginnen"
+msgstr[1] "Plugins aktualisieren beginnen"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:381
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:101
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Plugin aktivieren beginnen"
+msgstr[1] "Plugins aktivieren beginnen"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:386
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:106
+msgid "Return to Required Plugins Installer"
+msgstr "Zurück zur Installation der erforderlichen Plugins"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:387
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:836
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2588
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3649
+msgid "Return to the Dashboard"
+msgstr "Zurück zum Dashboard"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:388
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3223
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:107
+msgid "Plugin activated successfully."
+msgstr "Das Plugin wurde erfolgreich aktiviert."
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:391
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:110
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Nichts verändert. Das Plugins %1$s war bereits aktiv."
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:393
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:112
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Das Plugin wurde nicht aktiviert. Für dieses Theme wird eine höhere Version von %s benötigt. Bitte aktualisiere das Plugin."
+
+#. translators: 1: dashboard link.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:395
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:114
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alle Plugins installiert und erfolgreich aktiviert. %1$s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:396
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:115
+msgid "Dismiss this notice"
+msgstr "Diese Mitteilung ausblenden"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:116
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Es gibt ein oder mehrere erforderliche oder empfohlene Plugins zum Installieren, Aktualisieren oder Aktivieren."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:398
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:117
+msgid "Please contact the administrator of this site for help."
+msgstr "Bitte kontaktiere den Administrator dieser Website für Hilfe."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:530
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Das Plugin muss aktualisiert werden, um mit deinem Theme kompatibel zu sein."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:531
+msgid "Update Required"
+msgstr "Aktualisierung erforderlich"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:944
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Das entfernte Plugin-Paket enthält kein Verzeichnis mit der gewünschten Titelform und Umbenennen hat nicht funktioniert."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:944
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:950
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Bitte setze dich mit dem Plugin-Anbieter in Verbindung und bitte ihn, sein Plugin entsprechend der WordPress-Richtlinien zu packen."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:950
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "Das entfernte Plugin-Paket besteht aus mehr als einer Datei, aber die Dateien sind nicht in einem Verzeichnis verpackt."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1138
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3006
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "und"
+
+#. translators: %s: version number
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2025
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2321
+msgid "Required"
+msgstr "Erforderlich"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2324
+msgid "Recommended"
+msgstr "Empfohlen"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2341
+msgid "WordPress Repository"
+msgstr "WordPress-Verzeichnis"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2344
+msgid "External Source"
+msgstr "Externe Quelle"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2347
+msgid "Pre-Packaged"
+msgstr "Vorgepackt"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2365
+msgid "Not Installed"
+msgstr "Nicht installiert"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2369
+msgid "Installed But Not Activated"
+msgstr "Installiert, aber nicht aktiviert"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2371
+msgid "Active"
+msgstr "Aktiv"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2377
+msgid "Required Update not Available"
+msgstr "Benötigte Aktualisierung nicht verfügbar"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2380
+msgid "Requires Update"
+msgstr "Aktualisierung nötig"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2383
+msgid "Update recommended"
+msgstr "Aktualisierung empfohlen"
+
+#. translators: 1: install status, 2: update status
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2392
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2439
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span>"
+msgstr[1] "Alle <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2443
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Zu installieren <span class=\"count\">(%s)</span>"
+msgstr[1] "Zu installieren <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2447
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Aktualisierung verfügbar <span class=\"count\">(%s)</span>"
+msgstr[1] "Aktualisierungen verfügbar <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2451
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Zu aktivieren <span class=\"count\">(%s)</span>"
+msgstr[1] "Zu aktivieren <span class=\"count\">(%s)</span>"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2537
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "unbekannt"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2545
+msgid "Installed version:"
+msgstr "Installierte Version:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2553
+msgid "Minimum required version:"
+msgstr "Erforderliche Mindestversion:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2565
+msgid "Available version:"
+msgstr "Verfügbare Version:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2588
+msgid "No plugins to install, update or activate."
+msgstr "Keine Plugins zu installieren, aktualisieren oder aktivieren."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2602
+msgid "Plugin"
+msgstr "Plugin"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2603
+msgid "Source"
+msgstr "Quelle"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2604
+msgid "Type"
+msgstr "Typ"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2608
+msgid "Version"
+msgstr "Version"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2609
+msgid "Status"
+msgstr "Status"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2659
+msgid "Install %2$s"
+msgstr "%2$s installieren"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2664
+msgid "Update %2$s"
+msgstr "%2$s aktualisieren"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2670
+msgid "Activate %2$s"
+msgstr "%2$s aktivieren"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2742
+msgid "Upgrade message from the plugin author:"
+msgstr "Upgrade-Nachricht vom Plugin-Autor:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2775
+msgid "Install"
+msgstr "Installieren"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2781
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2784
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2815
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Es wurden keine Plugins zur Installation ausgewählt. Keine Aktion ausgeführt."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2817
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Es wurden keine Plugins zur Aktualisierung ausgewählt. Keine Aktion ausgeführt."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2858
+msgid "No plugins are available to be installed at this time."
+msgstr "Momentan stehen keine Plugins zur Installation zur Verfügung."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2860
+msgid "No plugins are available to be updated at this time."
+msgstr "Momentan stehen keine Plugins zur Aktualisierung zur Verfügung."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2966
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Es wurden keine Plugins zur Aktivierung ausgewählt. Keine Aktion ausgeführt."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2992
+msgid "No plugins are available to be activated at this time."
+msgstr "Momentan stehen keine Plugins zur Aktivierung zur Verfügung."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3222
+msgid "Plugin activation failed."
+msgstr "Plugin-Aktivierung ist fehlgeschlagen."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3567
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Aktualisiere Plugin %1$s (%2$d von %3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3570
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Während der Installation von %1$s ist ein Fehler aufgetreten: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3572
+msgid "The installation of %1$s failed."
+msgstr "Die Installation von %1$s ist fehlgeschlagen."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3576
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Der Installations- und Aktivierungsvorgang beginnt. Dieser Vorgang kann bei einigen Hosts eine Weile dauern, bitte hab Geduld."
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3578
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s erfolgreich installiert und aktiviert."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3578
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3586
+msgid "Show Details"
+msgstr "Details anzeigen"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3578
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3586
+msgid "Hide Details"
+msgstr "Details ausblenden"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3579
+msgid "All installations and activations have been completed."
+msgstr "Alle Installationen und Aktivierungen sind abgeschlossen."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3581
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installiere und aktiviere Plugin %1$s (%2$d/%3$d)"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3584
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Der Installationsvorgang wird gestartet. Dieser Vorgang kann bei einigen Hosts eine Weile dauern, bitte hab Geduld."
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3586
+msgid "%1$s installed successfully."
+msgstr "%1$s erfolgreich installiert."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3587
+msgid "All installations have been completed."
+msgstr "Alle Installationen sind abgeschlossen."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3589
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installiere Plugin %1$s (%2$d/%3$d)"
+
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:22
+msgid "ThemeGrill Demo Importer"
+msgstr "ThemeGrill Demo Importer"
+
+#: inc/widgets/class-cenote-widget-recent-posts.php:21
+msgid "Shows recent posts with an image"
+msgstr "Zeigt letzte Beiträge mit Bild an"
+
+#: inc/widgets/class-cenote-widget-recent-posts.php:40
+msgid "Recent Posts"
+msgstr "Neueste Beiträge"
+
+#: inc/widgets/class-cenote-widget-recent-posts.php:75
+msgid "(no title)"
+msgstr "(kein Titel)"
+
+#: inc/widgets/class-cenote-widget-recent-posts.php:122
+msgid "Title:"
+msgstr "Titel:"
+
+#: inc/widgets/class-cenote-widget-recent-posts.php:127
+msgid "Number of posts to show:"
+msgstr "Anzahl der Beiträge, die angezeigt werden:"
+
+#: inc/widgets/class-cenote-widget-recent-posts.php:133
+msgid "Display post date?"
+msgstr "Veröffentlichungsdatum anzeigen?"
+
+#: inc/woocommerce.php:227
+msgid "View your shopping cart"
+msgstr "Warenkorb anschauen"
+
+#. translators: number of items in the mini cart.
+#: inc/woocommerce.php:229
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d Element"
+msgstr[1] "%d Elemente"
+
+#. Template Name of the plugin/theme
+msgid "Cover Style"
+msgstr "Cover-Stil"
+
+#. translators: %s: search query.
+#: search.php:23
+msgid "Search Results for: %s"
+msgstr "Suchergebnisse für: %s"
+
+#: single.php:22 template-parts/content-single-cover.php:53
+msgid "Previous Article"
+msgstr "Vorheriger Beitrag"
+
+#: single.php:23 template-parts/content-single-cover.php:54
+msgid "Next Article"
+msgstr "Nächster Beitrag"
+
+#: template-parts/author/author-box.php:40
+msgid "Website"
+msgstr "Website"
+
+#: template-parts/author/author-box.php:47
+msgid "Posts created"
+msgstr "Beitrag erstellt"
+
+#: template-parts/content-audio.php:35 template-parts/content-gallery.php:53
+#: template-parts/content-link.php:28 template-parts/content-quote.php:29
+#: template-parts/content-search.php:34 template-parts/content-video.php:35
+#: template-parts/content.php:68
+msgid "Read More"
+msgstr "Weiterlesen"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Es konnte nichts gefunden werden."
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:26
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Bereit, um deinen ersten Beitrag zu veröffentlichen? <a href=\"%1$s\">Starte hier</a>."
+
+#: template-parts/content-none.php:40
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Entschuldigung, aber zu deinen Suchbegriffen wurde nichts Passendes gefunden. Bitte versuche es mit anderen Begriffen nochmal."
+
+#: template-parts/content-none.php:47
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Es sieht so aus, als ob wir nicht das finden konnten, wonach du gesucht hast. Möglicherweise hilft die Suchfunktion."
+
+#: template-parts/content-page.php:32
+msgid "Pages:"
+msgstr "Seiten:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:52
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "<span class=\"screen-reader-text\">\"%s\"</span> weiterlesen"
+
+#. translators: 1: Current Year, 2: Blog Name 3: Theme Developer 4: WordPress.
+#: template-parts/footer/footer-info.php:12
+msgid "Copyright %1$s %2$s All Right Reserved. Theme By %3$s. Proudly powered by %4$s"
+msgstr "Copyright %1$s %2$s Alle Rechte vorbehalten. Theme von %3$s. Stolz präsentiert von %4$s"
+
+#: template-parts/footer/search-form.php:14
+msgid "Begin typing your search term above and press enter to search. Press ESC to cancel."
+msgstr "Beginne damit, deinen Suchbegriff oben einzugeben und drücke Enter für die Suche. Drücke ESC, um abzubrechen."
+
+#: template-parts/pagination/pagination.php:17
+msgid "Posts Navigation"
+msgstr "Beitrags-Navigation"
+
+#: template-parts/pagination/pagination.php:28
+msgid "Next"
+msgstr "Weiter"
+
+#: template-parts/pagination/pagination.php:29
+msgid "Previous"
+msgstr "Zurück"
+
+#: template-parts/related/related-post.php:35
+msgid "Related Posts"
+msgstr "Verwandte Beiträge"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:48
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:54
+msgid "Background Image"
+msgstr "Hintergrundbild"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:59
+#: inc/kirki/controls/php/class-kirki-control-base.php:112
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:398
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:403
+msgid "No File Selected"
+msgstr "Keine Datei ausgewählt"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:62
+#: inc/kirki/controls/php/class-kirki-control-base.php:113
+#: inc/kirki/controls/php/class-kirki-control-image.php:52
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:376
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:433
+#: inc/kirki/field/class-kirki-field-image.php:44
+msgid "Remove"
+msgstr "Entfernen"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:63
+#: inc/kirki/controls/php/class-kirki-control-base.php:115
+msgid "Select File"
+msgstr "Datei auswählen"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:70
+msgid "Background Repeat"
+msgstr "Hintergrund-Wiederholung"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:72
+msgid "No Repeat"
+msgstr "keine Wiederholung"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:73
+msgid "Repeat All"
+msgstr "In alle Richtungen wiederholen"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:74
+msgid "Repeat Horizontally"
+msgstr "Horizontal wiederholen"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:75
+msgid "Repeat Vertically"
+msgstr "Vertikal wiederholen"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:81
+msgid "Background Position"
+msgstr "Hintergrund-Position"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:83
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:115
+msgid "Left Top"
+msgstr "Links oben"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:84
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:116
+msgid "Left Center"
+msgstr "Links mittig"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:85
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:117
+msgid "Left Bottom"
+msgstr "Links unten"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:86
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:118
+msgid "Right Top"
+msgstr "Rechts oben"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:87
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:119
+msgid "Right Center"
+msgstr "Rechts mittig"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:88
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:120
+msgid "Right Bottom"
+msgstr "Rechts unten"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:89
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:121
+msgid "Center Top"
+msgstr "Oben mittig"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:90
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:122
+msgid "Center Center"
+msgstr "Mittig"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:91
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:123
+msgid "Center Bottom"
+msgstr "Unten mitte"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:97
+msgid "Background Size"
+msgstr "Hintergrundgröße"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:100
+msgid "Cover"
+msgstr "Cover"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:103
+msgid "Contain"
+msgstr "Contain"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:106
+msgid "Auto"
+msgstr "Automatisch"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:113
+msgid "Background Attachment"
+msgstr "Scroll-Verhalten des Hintergrunds"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:116
+msgid "Scroll"
+msgstr "Scroll"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:119
+msgid "Fixed"
+msgstr "Fest"
+
+#: inc/kirki/controls/php/class-kirki-control-base.php:116
+msgid "Standard Fonts"
+msgstr "Standardschriftarten"
+
+#: inc/kirki/controls/php/class-kirki-control-base.php:117
+msgid "Google Fonts"
+msgstr "Google Fonts"
+
+#: inc/kirki/controls/php/class-kirki-control-base.php:118
+msgid "Default CSS Values"
+msgstr "CSS-Standardwerte"
+
+#: inc/kirki/controls/php/class-kirki-control-dimension.php:39
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:140
+msgid "Invalid Value"
+msgstr "Ungültiger Wert"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:124
+#: inc/kirki/controls/php/class-kirki-control-typography.php:100
+msgid "Font Size"
+msgstr "Schriftgröße"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:125
+msgid "Font Weight"
+msgstr "Schriftstärke"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:126
+#: inc/kirki/controls/php/class-kirki-control-typography.php:108
+msgid "Line Height"
+msgstr "Zeilenhöhe"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:127
+msgid "Font Style"
+msgstr "Schriftschnitt"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:128
+#: inc/kirki/controls/php/class-kirki-control-typography.php:116
+msgid "Letter Spacing"
+msgstr "Zeichenabstand"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:129
+#: inc/kirki/controls/php/class-kirki-control-typography.php:124
+msgid "Word Spacing"
+msgstr "Wortabstand"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:130
+#: inc/kirki/field/class-kirki-field-spacing.php:33
+msgid "Top"
+msgstr "Oben"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:131
+#: inc/kirki/field/class-kirki-field-spacing.php:34
+msgid "Bottom"
+msgstr "Unten"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:132
+#: inc/kirki/controls/php/class-kirki-control-typography.php:143
+#: inc/kirki/field/class-kirki-field-spacing.php:35
+msgid "Left"
+msgstr "Links"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:133
+#: inc/kirki/controls/php/class-kirki-control-typography.php:155
+#: inc/kirki/field/class-kirki-field-spacing.php:36
+msgid "Right"
+msgstr "Rechts"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:134
+#: inc/kirki/controls/php/class-kirki-control-typography.php:149
+msgid "Center"
+msgstr "Zentriert"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:135
+msgid "Size"
+msgstr "Größe"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:136
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:139
+msgid "Height"
+msgstr "Höhe"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:137
+msgid "Spacing"
+msgstr "Zwischenräume"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:138
+msgid "Width"
+msgstr "Breite"
+
+#: inc/kirki/controls/php/class-kirki-control-image.php:49
+#: inc/kirki/controls/php/class-kirki-control-image.php:54
+#: inc/kirki/field/class-kirki-field-image.php:41
+#: inc/kirki/field/class-kirki-field-image.php:46
+msgid "Select image"
+msgstr "Bild auswählen"
+
+#: inc/kirki/controls/php/class-kirki-control-image.php:50
+#: inc/kirki/field/class-kirki-field-image.php:42
+msgid "Change image"
+msgstr "Bild ändern"
+
+#: inc/kirki/controls/php/class-kirki-control-image.php:53
+#: inc/kirki/field/class-kirki-field-image.php:45
+msgid "No image selected"
+msgstr "Kein Bild ausgewählt"
+
+#: inc/kirki/controls/php/class-kirki-control-image.php:55
+#: inc/kirki/field/class-kirki-field-image.php:47
+msgid "Choose image"
+msgstr "Bild wählen"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:70
+msgid "row"
+msgstr "Zeile"
+
+#. translators: %s represents the label of the row.
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:79
+msgid "Add new %s"
+msgstr "Neu hinzufügen %s"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:114
+msgid "Select a Page"
+msgstr "Seite auswählen"
+
+#. translators: %s represents the number of rows we're limiting the repeater to
+#. allow.
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:220
+msgid "Limit: %s rows"
+msgstr "Limit: %s Zeilen"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:349
+msgid "Hex Value"
+msgstr "Hex-Wert"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:366
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:371
+msgid "No Image Selected"
+msgstr "Kein Bild ausgewählt"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:377
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:381
+msgid "Add Image"
+msgstr "Bild hinzufügen"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:377
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:379
+msgid "Change Image"
+msgstr "Bild ändern"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:409
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:413
+msgid "Add File"
+msgstr "Datei hinzufügen"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:409
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:411
+msgid "Change File"
+msgstr "Datei ändern"
+
+#: inc/kirki/controls/php/class-kirki-control-slider.php:65
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: inc/kirki/controls/php/class-kirki-control-switch.php:52
+#: inc/kirki/field/class-kirki-field-switch.php:42
+msgid "On"
+msgstr "Ein"
+
+#: inc/kirki/controls/php/class-kirki-control-switch.php:56
+#: inc/kirki/field/class-kirki-field-switch.php:43
+msgid "Off"
+msgstr "Aus"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:80
+msgid "Font Family"
+msgstr "Schriftart"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:81
+#: inc/kirki/controls/php/class-kirki-control-typography.php:86
+msgid "Select Font Family"
+msgstr "Schriftfamilie auswählen"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:85
+msgid "Backup Font"
+msgstr "Ersatzschrift"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:91
+msgid "Variant"
+msgstr "Variante"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:132
+msgid "Text Align"
+msgstr "Textausrichtung"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:137
+#: inc/kirki/controls/php/class-kirki-control-typography.php:178
+#: inc/kirki/controls/php/class-kirki-control-typography.php:193
+msgid "Inherit"
+msgstr "Inherit"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:161
+msgid "Justify"
+msgstr "Blocksatz"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:171
+msgid "Text Transform"
+msgstr "Texttransformation"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:173
+#: inc/kirki/controls/php/class-kirki-control-typography.php:188
+msgid "None"
+msgstr "Keine"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:174
+msgid "Capitalize"
+msgstr "Großschreibung"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:175
+msgid "Uppercase"
+msgstr "GROSSBUCHSTABEN"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:176
+msgid "Lowercase"
+msgstr "Kleinschreibung"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:177
+#: inc/kirki/controls/php/class-kirki-control-typography.php:192
+msgid "Initial"
+msgstr "Initiale"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:186
+msgid "Text Decoration"
+msgstr "Textgestaltung"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:189
+msgid "Underline"
+msgstr "Unterstreichen"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:190
+msgid "Overline"
+msgstr "Überstrich"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:191
+msgid "Line-Through"
+msgstr "Durchgestrichen"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:201
+msgid "Margin Top"
+msgstr "Außenabstand oben"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:209
+msgid "Margin Bottom"
+msgstr "Außenabstand unten"
+
+#. translators: %s represents the field ID where the error occurs.
+#: inc/kirki/core/class-kirki-field.php:232
+msgid "Typo found in field %s - setting instead of settings."
+msgstr "Tippfehler gefunden in Feld %s - Einstellung anstelle von Einstellungen."
+
+#. translators: %1$s represents the field ID where the error occurs. %2$s is
+#. the URL in the documentation site.
+#: inc/kirki/core/class-kirki-field.php:241
+#: inc/kirki/core/class-kirki-field.php:251
+msgid "Config not defined for field %1$s - See %2$s for details on how to properly add fields."
+msgstr "Konfiguration nicht definiert für Feld %1$s - Siehe %2$s für Details, wie du korrekt neue Felder hinzufügst."
+
+#. translators: %1$s represents the field ID where the error occurs.
+#: inc/kirki/core/class-kirki-field.php:391
+msgid "Typo found in field %s - \"theme_mods\" vs \"theme_mod\""
+msgstr "Tippfehler gefunden in Feld %s - „theme_mods“ vs „theme_mod\""
+
+#. translators: The field ID where the error occurs.
+#: inc/kirki/core/class-kirki-field.php:538
+#: inc/kirki/core/class-kirki-field.php:548
+msgid "\"output\" invalid format in field %s. The \"output\" argument should be defined as an array of arrays."
+msgstr "Ungültiges Format für „output“ in Feld %s. Das „output“-Argument sollte als ein Array von Arrays definiert werden."
+
+#: inc/kirki/core/class-kirki-init.php:280
+msgid "We detected you're using Kirki_Init::get_variables(). Please use Kirki_Util::get_variables() instead."
+msgstr "Wir haben festgestellt, dass du Kirki_Init::get_variables() benutzt. Bitte benutze stattdessen Kirki_Util::get_variables()."
+
+#: inc/kirki/core/class-kirki.php:228
+msgid "Kirki fields should not be added on customize_register. Please add them directly, or on init."
+msgstr "Kirki-Felder sollten nicht über customize_register hinzugefügt werden. Bitte füge sie direkt oder in der Init-Phase hinzu."
+
+#: inc/kirki/deprecated/functions.php:19
+msgid "%1$s or %2$s"
+msgstr "%1$s oder %2$s"
+
+#: inc/kirki/field/class-kirki-field-color.php:55
+msgid "Do not use \"alpha\" as an argument in color controls. Use \"choices[alpha]\" instead."
+msgstr "Benutze nicht \"alpha\" als Argument in den Farbeinstellungen. Benutze stattdessen \"choices[alpha]“."
+
+#. translators: %1$s represents the field ID where the error occurs. %2%s is
+#. buttonset/image.
+#: inc/kirki/field/class-kirki-field-radio.php:37
+msgid "Error in field %1$s. The \"mode\" argument has been deprecated since Kirki v0.8. Use the \"radio-%2$s\" type instead."
+msgstr "Fehler in Feld %1$s. Das „mode“-Argument ist seit Kirki v0.8 veraltet. Benutze stattdessen den „radio-%2$s“ Typ."
+
+#: inc/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:59
+msgid "Customizing"
+msgstr "Deine Anpassungen für"
+
+#. translators: The title.
+#: inc/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:62
+msgid "Customizing &#9656; %s"
+msgstr "Deine Anpassungen für &#9656; %s"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:210
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:211
+msgid "Ultra-Light 100"
+msgstr "Ultra-Light 100"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:212
+msgid "Ultra-Light 100 Italic"
+msgstr "Ultra-Light 100 Kursiv"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:213
+msgid "Light 200"
+msgstr "Light 200"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:214
+msgid "Light 200 Italic"
+msgstr "Light 200 Kursiv"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:215
+msgid "Book 300"
+msgstr "Book 300"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:216
+msgid "Book 300 Italic"
+msgstr "Book 300 Kursiv"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:217
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:218
+msgid "Normal 400"
+msgstr "Normal 400"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:219
+msgid "Normal 400 Italic"
+msgstr "Normal 400 Kursiv"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:220
+msgid "Medium 500"
+msgstr "Medium 500"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:221
+msgid "Medium 500 Italic"
+msgstr "Medium 500 Kursiv"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:222
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:223
+msgid "Semi-Bold 600"
+msgstr "Semi-Fett 600"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:224
+msgid "Semi-Bold 600 Italic"
+msgstr "Semi-Fett 600 Kursiv"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:225
+msgid "Bold 700"
+msgstr "Fett 700"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:226
+msgid "Bold 700 Italic"
+msgstr "Fett 700 Kursiv"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:227
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:228
+msgid "Extra-Bold 800"
+msgstr "Extra-Fett 800"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:229
+msgid "Extra-Bold 800 Italic"
+msgstr "Extra-Fett 800 Kursiv"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:230
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:231
+msgid "Ultra-Bold 900"
+msgstr "Ultra-Fett 900"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:232
+msgid "Ultra-Bold 900 Italic"
+msgstr "Ultra-Fett 900 Kursiv"
+
+#: inc/kirki/upgrade-notifications.php:30
+msgid "Important Upgrade Notice:"
+msgstr "Wichtiger Upgrade-Hinweis:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:389
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3010
+#: inc/tgm-plugin-activation/tgmpa-cenote.php:108
+msgid "The following plugin was activated successfully:"
+msgstr "Das folgende Plugin wurde erfolgreich aktiviert:"
+
+#: inc/kirki/controls/php/class-kirki-control-code.php:37
+msgid "Please update your WordPress installation to a version newer than 4.9 to access the code control."
+msgstr "Bitte aktualisiere deine WordPress-Installation auf eine Version höher als 4.9, um Zugriff auf den Code-Editor zu haben."
+
+#. translators: %1$s represents the field ID where the error occurs.
+#: inc/kirki/core/class-kirki-field.php:409
+msgid "\"partial_refresh\" invalid entry in field %s"
+msgstr "„partial_refresh“ Ungültiger Eintrag in Feld %s"
+
+#: inc/widgets/class-cenote-widget-recent-posts.php:24
+msgid "TG: Recent Posts"
+msgstr "TG: Neueste Beiträge"
+
+#. Theme URI of the plugin/theme
+msgid "https://themegrill.com/themes/cenote/"
+msgstr "https://themegrill.com/themes/cenote/"
+
+#. Author of the plugin/theme
+msgid "Themegrill"
+msgstr "Themegrill"
+
+#. Author URI of the plugin/theme
+msgid "https://themegrill.com"
+msgstr "https://themegrill.com"

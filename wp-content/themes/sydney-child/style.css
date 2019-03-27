@@ -1,0 +1,337 @@
+/*
+Theme Name: Sydney-child
+Theme URI: https://athemes.com/theme/sydney
+Author: aThemes
+Author URI: https://athemes.com
+Description: Sydney is a powerful business theme that provides a fast way for companies or freelancers to create an awesome online presence. As well as being fully compatible with Elementor, Sydney brings plenty of customization possibilities like access to all Google Fonts, full color control, layout control, logo upload, full screen slider, header image, sticky navigation and much more. Also, Sydney provides all the construction blocks you need to rapidly create an engaging front page.
+Template: sydney     
+Version: 1.52
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sydney
+Tags: two-columns, right-sidebar, custom-colors, custom-background, custom-header, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+Sydney is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+*/
+
+/* ================================================================ */
+										/* GENERAL */
+#primary {
+		width: auto;
+	}
+
+.content-area {
+	float: none;
+	margin: auto;
+}
+
+#mainnav ul {
+	display: flex;
+	justify-content: flex-end;
+	width: 650px;
+	height: 90px;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.search-form {
+	display: flex;
+	font-size: 10px;
+}
+
+input#wpa_label_s::placeholder {
+	font-size: 18px;
+	vertical-align: middle;
+}
+	
+input.search-field {
+	width: 150px;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+input.search-submit {
+	width: 150px;
+	height: 50px;
+}
+	
+strong a {
+	color: red;
+}
+
+strong a:hover{
+	background-color: #1a2530;
+	padding: 3px;
+	color: red;
+}
+
+em a {
+	font-style: italic;
+}
+
+p.intro {
+	-webkit-columns: 2;
+	-moz-columns: 2;
+	columns: 2;
+	column-gap: 20px;
+	text-align: justify;
+}
+
+/* ================================================================ */
+										/* PAGE D'ACCUEIL */
+
+.menu-item {
+	background-color: #1a2530;
+}
+
+.menu-item:hover, li.lang-item:hover {
+	background-color: red;
+}
+
+.menu-item:active, .menu-item:current {
+	background-color: red;
+}
+
+a.roll-buton, a.button-slider, input.search-submit {
+	color: #ffffff;
+	background-color: red;
+	border: #1a2530;
+}
+
+a.roll-buton:hover, a.button-slider:hover {
+	color: #ffffff;
+	background-color: #1a2530;
+	border: #1a2530;
+}
+
+div#secondary {
+	background-color: blue;
+}
+
+header.entry-header h1 {
+	display: none;
+}
+
+.rfleruobalderf2pt {
+	background-color: #bdebfb;
+}
+
+/* ================================================================ */
+										/* PAGE ACTUALITES */
+
+.attachment-sydney-large-thumb {
+	float: left;
+	vertical-align: top;
+	width: 200px;
+	height: 150px;
+	transition: 1s ease-out;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+}
+
+.attachment-sydney-large-thumb:hover {
+	border-width: 1;
+	border-color: #1a2530;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 5px 5px 5px #1a2530;
+}
+
+header.entry-header, .entry-post {
+	margin-left: 215px;
+}
+
+header.entry-header, p.entry-post p {
+	line-height: 2em;
+}
+
+header.entry-header h2.title-post a:hover {
+	color: red;
+}
+
+/* ================================================================ */
+										/* PAGE ACTIVITES DU MOIS */
+
+.events-table thead {
+	background-color: #1a2530;
+	color: #ffffff;
+}
+
+td.events-time, td.event-time-zone {
+	text-align: center;
+}
+
+.events-table tbody tr:hover {
+	background-color: #027adb;
+	color: #ffffff;
+}
+
+.events-table tbody tr td {
+	height: 50px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+}
+
+.event_link {
+	font-weight: bold;
+	text-transform: uppercase;
+	white-space: nowrap;
+	color: red;
+}
+
+.events-table tbody tr td i {
+	color: grey;
+}
+
+.events-table tbody tr td p {
+	height: 50px;
+	white-space: normal;
+	overflow: hidden;
+}
+
+.button_register {
+	background-color: red;    
+	color: #ffffff;
+	font-size: 0.9em; 
+	text-decoration: none;
+	text-align: center;
+	border: transparent;
+	border-radius: 3px;
+	display: block;
+	margin: 10px;
+	padding: 10px;
+	width: 100px;
+}
+
+.events-table tbody tr.ligne_vide {
+	height: 10px;
+}
+
+input.em-search-geo, input.gm-err-autocomplete {
+	display: none;
+}
+
+/* ================================================================ */
+										/* PAGE ACTIVITES DU MOIS - EVENEMENT SEUL */
+	
+article div.entry-thumb img.attachment-large-thumb {
+	display: none;
+}	
+
+/* ================================================================ */
+										/* PAGE CONTACT */
+
+#date_aide {
+	position: relative;
+	top: -20px;
+	color: grey;
+	margin-bottom: 0px;
+}
+
+/* =============================================================== */
+/* =================== Medias Queries Smartphones =================== */
+/* ================================================================ */
+@media all and (max-width: 900px) {
+	
+	header.fixed-header {
+		position: fixed;
+	}
+}
+
+/* =============================================================== */
+/* =================== Medias Queries Smartphones =================== */
+/* ================================================================ */
+@media all and (max-width: 762px) {
+	
+	div#content.page-wrap {
+		background-image: none;
+		background-color: white;
+		padding-top: 0px;
+		padding-bottom: 0px;	
+	}
+	.header-slider {
+		display: none;
+	}
+	.overlay {
+		display: none;
+	}
+	div.btn-menu {
+		position: fixed;
+		right: 5px;
+		top: 5px;
+		z-index: 1000;
+		color: red;
+		width: 30px;
+	}
+	p.intro {
+		-webkit-columns: 1;
+		-moz-columns: 1;
+		columns: 1;
+	}	
+	span.entry-content {
+		display: none;
+	}
+	button.toggle-contrast, button.toggle-fontsize {
+		top: -185px;
+		transform: scale(0.5);
+	}
+	
+/* ================================================================ */
+										/* PAGE ACTUALITES  */	
+	.attachment-sydney-large-thumb {
+		float: none;
+	}
+	header.entry-header, .entry-post {
+		margin-left: 0px;
+	}
+	header.entry-header h2.title-post a {
+		font-size: 0.5em;
+	}
+
+/* ================================================================ */
+										/* PAGE ACTIVITES DU MOIS  */
+	.events-table th, .events-table tbody tr {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		width: 100%;
+	}
+	.events-table tbody tr td {
+		height: auto;
+		text-align: left;
+		border-bottom-width: 0px;
+	}
+	.events-table tbody tr td:nth-child(3) {
+		align-self: flex-end;
+		margin-bottom: 20px;
+		margin-top: 0px;
+	}
+	.events-table tbody tr td:nth-child(1) {
+		width: 100%;
+		border-color: black;
+		border-top-width: 1px;
+	}
+	td.event-time-zone {
+		border-color: black;
+		border-top-width: 1px;
+	}
+	.event_link {
+		white-space: normal;
+	}	
+	.button_register {
+		margin: 0px;
+		padding: 2px;
+		width: 100px;
+		text-align: center;
+		align-self: flex-end;
+	}
+	.events-table thead {
+		width: auto;
+		font-size: 0.8em;
+	}
+}
+/* ================================================================ */
